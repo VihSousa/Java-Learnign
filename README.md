@@ -6,20 +6,16 @@
 </div>
 
 <p align="center">
-  <img src="/Logo/DIO_logo.png" alt="DIO_Excel" width="200"/>
+  <img width="200" alt="DIO_Logo" src="https://github.com/user-attachments/assets/8b82d923-8303-4905-a3de-c8a8bd1d61b4"/>
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/vitor09/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Badge_L" />
-  </a>
-  <a href="mailto:jvno09229009@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Badge_G" />
-  </a>
-    <a href="https://github.com/VihSousa" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Badge_Git" />
-  </a>
-</p>
+<div align="center">
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitor09/)
+  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jvno09229009@gmail.com)
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VihSousa)
+
+</div>
 
 ## 🚀 Projetos
 
