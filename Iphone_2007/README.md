@@ -1,18 +1,46 @@
-## Getting Started
+# 📱 Diagrama UML – iPhone 2007
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📌 Descrição
 
-## Folder Structure
+Este projeto apresenta um **Diagrama de Classes UML** inspirado no lançamento do primeiro iPhone (2007), conforme demonstrado por Steve Jobs. O objetivo é modelar de forma orientada a objetos os principais **componentes físicos** e **aplicações** que faziam parte do dispositivo original, representando a integração de hardware e software em um único aparelho.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📷 Imagem do Diagrama
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+> ![Diagrama UML do iPhone 2007](./Iphone2007.jpg)  
+> *(Clique para ampliar)*
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 📦 Estrutura do Diagrama
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 🔧 Componentes de Hardware
+- **Microfone**: ativa, desativa, grava e pausa.
+- **Câmera**: tira fotos, ativa/desativa flash, zoom.
+- **Alto-Falante**: controle de volume, som.
+- **GPS**: localização e monitoramento.
+
+### 🧩 Aplicativos
+Representados por uma classe base (`Aplicativos`), com especializações:
+- **AppTelefone**: faz chamadas, acessa correio de voz.
+- **AppContato**: adiciona, busca e remove contatos.
+- **AppEmail**: envia, recebe e sincroniza e-mails.
+- **AppNavegador**: navegação por páginas da web.
+- **AppMusica**: controle de reprodução de música.
+- **AppClima**: previsão do tempo.
+- **AppMapa**: exibe mapas e calcula rotas.
+
+### ☎️ Chamada
+Classe que representa ligações realizadas, recusadas ou em espera.
+
+### 👤 Contato
+Entidade com nome, número e e-mail. Usada pelo `AppContato`.
+
+---
+
+## ⚙️ Tecnologias Usadas
+
+- [draw.io / diagrams.net](https://draw.io): criação visual do diagrama
+- UML (Unified Modeling Language): linguagem de modelagem de software
+
