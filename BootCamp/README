@@ -1,0 +1,41 @@
+# :dna: Desafio de Programação Orientada a Objetos
+
+Projeto prático desenvolvido para o desafio da Digital Innovation One, com foco em aplicar os 4 pilares da Programação Orientada a Objetos (POO) em Java.
+
+## :🎯: Objetivo do Projeto
+
+Modelar o domínio de um Bootcamp, aplicando Abstração, Encapsulamento, Herança e Polimorfismo para criar um sistema coeso e de fácil manutenção onde desenvolvedores podem se inscrever e progredir nos conteúdos.
+
+## :building_construction: Modelo de Classes
+
+O sistema foi modelado com as seguintes classes principais e seus relacionamentos:
+
+-   **`Bootcamp`**: Classe central que organiza os conteúdos (cursos e mentorias) e os desenvolvedores inscritos.
+-   **`Conteudo`**: Classe abstrata que serve como base para `Curso` e `Mentoria`, utilizando **Herança** para compartilhar atributos e métodos comuns.
+-   **`Curso`**: Herda de `Conteudo` e representa os cursos do bootcamp.
+-   **`Mentoria`**: Herda de `Conteudo` e representa as mentorias.
+-   **`Dev`**: Representa um desenvolvedor, que pode se inscrever em um `Bootcamp` e progredir nos conteúdos.
+
+## :bulb: Pilares da POO Aplicados
+
+-   **Abstração**: Foco em modelar as entidades essenciais (`Bootcamp`, `Dev`, `Conteudo`) e seus atributos/comportamentos relevantes.
+-   **Encapsulamento**: Proteção dos atributos das classes, expondo apenas os métodos necessários para interagir com eles (ex: `getters` e `setters`).
+-   **Herança**: `Curso` e `Mentoria` herdam da classe `Conteudo`, evitando repetição de código.
+-   **Polimorfismo**: A classe `Bootcamp` possui uma lista de `Conteudo`, que pode armazenar objetos do tipo `Curso` ou `Mentoria` de forma transparente.
+
+## :arrow_forward: Como Executar
+
+1.  **Pré-requisitos**:
+    -   Java JDK 11+ instalado.
+2.  Clone o repositório:
+    ```bash
+    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    ```
+3.  Navegue até o diretório `src` e compile os arquivos `.java`:
+    ```bash
+    javac com/desafio/poo/*.java
+    ```
+4.  Execute a classe principal (`Main`):
+    ```bash
+    java com.desafio.poo.Main
+    ```
