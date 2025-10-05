@@ -2,7 +2,7 @@
 
 Projeto prático desenvolvido para o desafio da Digital Innovation One, com foco em aplicar os 4 pilares da Programação Orientada a Objetos (POO) em Java.
 
-## :🎯: Objetivo do Projeto
+## 🎯 Objetivo do Projeto
 
 Modelar o domínio de um Bootcamp, aplicando Abstração, Encapsulamento, Herança e Polimorfismo para criar um sistema coeso e de fácil manutenção onde desenvolvedores podem se inscrever e progredir nos conteúdos.
 
